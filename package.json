@@ -1,0 +1,33 @@
+{
+  "name": "protowebjs",
+  "version": "0.0.1",
+  "description": "Client Library For GRPC Web",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogukanucak/ProtoWebJS.git"
+  },
+  "keywords": [
+    "grpc",
+    "grpc-web",
+    "proto",
+    "protobuf"
+  ],
+  "author": "Doğukan Uçak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogukanucak/ProtoWebJS/issues"
+  },
+  "homepage": "https://github.com/dogukanucak/ProtoWebJS#readme",
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.13.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.2"
+  }
+}
